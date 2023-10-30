@@ -13,3 +13,6 @@ Instructions to run each microservice:
   - Payments: localhost:8989/payments
   - Products: localhost:8888/products
   - Orders: localhost:8887/orders
+
+- You can use your own JWT key for authentication, the key is located in application.properties for each microservice:
+- jwt.key={your custom encrypted key}
